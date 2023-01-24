@@ -85,4 +85,13 @@ New release '20.04.5 LTS' available.
 Run 'do-release-upgrade' to upgrade to it.
 
 
+#  whoami
+vagrant@vagrant:~$ whoami
+vagrant
 
+# free -m
+vagrant@vagrant:~$  # free -m
+              total        used        free      shared  buff/cache   available
+Mem:           1550          66        1153           0         330        1342
+Swap:           979           0         979
+vagrant@vagrant:~$
