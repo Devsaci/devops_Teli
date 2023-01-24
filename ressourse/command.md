@@ -12,3 +12,15 @@ entries). To interact with any of the machines, you can go to that
 directory and run Vagrant, or you can use the ID directly with
 Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
+
+# C:\Users\Zakaria\vagrant-vms\ubuntu18> vagrant status
+output : 
+Current machine states:
+
+default                   running (virtualbox)
+
+The VM is running. To stop this VM, you can run `vagrant halt` to
+shut it down forcefully, or you can run `vagrant suspend` to simply
+suspend the virtual machine. In either case, to restart it again,
+simply run `vagrant up`.
+
