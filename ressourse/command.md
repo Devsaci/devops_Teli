@@ -24,3 +24,52 @@ shut it down forcefully, or you can run `vagrant suspend` to simply
 suspend the virtual machine. In either case, to restart it again,
 simply run `vagrant up`.
 
+# PS C:\Users\Zakaria\vagrant-vms\ubuntu18> vagrant reload
+output :
+==> default: Attempting graceful shutdown of VM...
+==> default: Checking if box 'geerlingguy/ubuntu1804' version '1.1.10' is up to date...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Available bridged network interfaces:
+1) Intel(R) 82579V Gigabit Network Connection
+2) Hyper-V Virtual Ethernet Adapter
+==> default: When choosing an interface, it is usually the one that is
+==> default: being used to connect to the internet.
+==> default:
+    default: Which interface should the network bridge to?
+    default: Which interface should the network bridge to?
+    default: Which interface should the network bridge to? 192.168.33.10
+    default: Which interface should the network bridge to? public_network
+    default: Which interface should the network bridge to? d
+    default: Which interface should the network bridge to? y
+    default: Which interface should the network bridge to? n
+    default: Which interface should the network bridge to? 0
+    default: Which interface should the network bridge to? 1
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+    default: Adapter 2: hostonly
+    default: Adapter 3: bridged
+==> default: Forwarding ports...
+    default: 22 (guest) => 2222 (host) (adapter 1)
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default:
+    default: Guest Additions Version: 6.1.32 r149290
+    default: VirtualBox Version: 7.0
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+    default: /vagrant => C:/Users/Zakaria/vagrant-vms/ubuntu18
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
