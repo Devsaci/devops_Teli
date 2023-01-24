@@ -73,3 +73,16 @@ output :
     default: /vagrant => C:/Users/Zakaria/vagrant-vms/ubuntu18
 ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
 ==> default: flag to force provisioning. Provisioners marked to run always will still run.
+
+
+# PS C:\Users\Zakaria\vagrant-vms\ubuntu18> vagrant ssh
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-156-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+New release '20.04.5 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+
