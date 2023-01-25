@@ -197,3 +197,7 @@ root@vagrant:~#
 # root@vagrant:~# whoami
 root
 root@vagrant:~#
+
+# root@vagrant:~# pwd
+/root
+root@vagrant:~#
