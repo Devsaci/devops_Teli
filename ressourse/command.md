@@ -158,3 +158,20 @@ vagrant@vagrant:~$
 Mem:           1550          69        1150           0         330        1339
 Swap:           979           0         979
 vagrant@vagrant:~$
+
+# vagrant@vagrant:~$ ls -al
+vagrant@vagrant:~$ ls
+vagrant@vagrant:~$ ls -al
+total 44
+drwxr-xr-x 6 vagrant vagrant 4096 Jan 24 22:07 .
+drwxr-xr-x 3 root    root    4096 Feb 12  2022 ..
+drwx------ 3 vagrant vagrant 4096 Feb 12  2022 .ansible
+-rw------- 1 vagrant vagrant   65 Jan 24 22:07 .bash_history
+-rw-r--r-- 1 vagrant vagrant  220 Feb 12  2022 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 3771 Feb 12  2022 .bashrc
+drwx------ 2 vagrant vagrant 4096 Feb 12  2022 .cache
+drwx------ 3 vagrant vagrant 4096 Feb 12  2022 .gnupg
+-rw-r--r-- 1 vagrant vagrant  807 Feb 12  2022 .profile
+drwx------ 2 vagrant vagrant 4096 Jan 24 20:16 .ssh
+-rw-r--r-- 1 vagrant vagrant    0 Feb 12  2022 .sudo_as_admin_successful
+-rw-r--r-- 1 vagrant vagrant    6 Feb 12  2022 .vbox_version
