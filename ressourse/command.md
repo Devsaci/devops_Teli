@@ -152,3 +152,9 @@ Run 'do-release-upgrade' to upgrade to it.
 
 Last login: Wed Jan 25 11:40:06 2023 from 10.0.2.2
 vagrant@vagrant:~$
+
+# vagrant@vagrant:~$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           1550          69        1150           0         330        1339
+Swap:           979           0         979
+vagrant@vagrant:~$
