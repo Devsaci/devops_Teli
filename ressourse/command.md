@@ -190,3 +190,6 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 VERSION_CODENAME=bionic
 UBUNTU_CODENAME=bionic
 vagrant@vagrant:~$
+
+# vagrant@vagrant:~$ sudo -i
+root@vagrant:~#
