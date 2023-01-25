@@ -139,3 +139,16 @@ vagrant@vagrant:~$ exit
 logout
 Connection to 127.0.0.1 closed.
 PS C:\Users\Zakaria\vagrant-vms\ubuntu18>
+
+
+# PS C:\Users\Zakaria\vagrant-vms\ubuntu18> vagrant ssh
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-156-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+New release '20.04.5 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Wed Jan 25 11:40:06 2023 from 10.0.2.2
+vagrant@vagrant:~$
