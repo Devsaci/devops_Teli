@@ -175,3 +175,18 @@ drwx------ 3 vagrant vagrant 4096 Feb 12  2022 .gnupg
 drwx------ 2 vagrant vagrant 4096 Jan 24 20:16 .ssh
 -rw-r--r-- 1 vagrant vagrant    0 Feb 12  2022 .sudo_as_admin_successful
 -rw-r--r-- 1 vagrant vagrant    6 Feb 12  2022 .vbox_version
+
+# vagrant@vagrant:~$ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+vagrant@vagrant:~$
