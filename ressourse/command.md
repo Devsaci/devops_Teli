@@ -201,3 +201,14 @@ root@vagrant:~#
 # root@vagrant:~# pwd
 /root
 root@vagrant:~#
+
+# root@vagrant:~# ls
+# root@vagrant:~# ls -a
+.  ..  .bashrc  .profile
+# root@vagrant:~# ls -al
+total 16
+drwx------  2 root root 4096 Feb 12  2022 .
+drwxr-xr-x 23 root root 4096 Jan 24 20:16 ..
+-rw-r--r--  1 root root 3106 Apr  9  2018 .bashrc
+-rw-r--r--  1 root root  148 Aug 17  2015 .profile
+root@vagrant:~#
