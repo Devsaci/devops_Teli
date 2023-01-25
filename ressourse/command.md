@@ -193,3 +193,7 @@ vagrant@vagrant:~$
 
 # vagrant@vagrant:~$ sudo -i
 root@vagrant:~#
+
+# root@vagrant:~# whoami
+root
+root@vagrant:~#
