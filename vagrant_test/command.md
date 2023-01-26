@@ -227,3 +227,7 @@ see
 ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
 ==> default: flag to force provisioning. Provisioners marked to run always will still run.
 PS C:\Users\Zakaria\vagrant-vms\vagrant_test>
+
+
+# vagrant reload
+PS C:\Users\Zakaria\vagrant-vms\vagrant_test> vagrant reload
