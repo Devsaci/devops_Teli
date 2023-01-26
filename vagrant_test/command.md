@@ -128,3 +128,23 @@ root@ubuntu-xenial:~#
 root@ubuntu-xenial:~# exit
 logout
 vagrant@ubuntu-xenial:~$
+
+# ~$ sudo apt update
+vagrant@ubuntu-xenial:~$ sudo apt update
+
+
+# vagrant destroy
+vagrant@ubuntu-xenial:~$ vagrant destroy
+The program 'vagrant' is currently not installed. To run 'vagrant' please ask your administrator to install the package 'vagrant'
+
+# ~$ exit
+vagrant@ubuntu-xenial:~$ exit
+logout
+Connection to 127.0.0.1 closed.
+
+# vagrant destroy
+PS C:\Users\Zakaria\vagrant-vms\vagrant_test> vagrant destroy
+    default: Are you sure you want to destroy the 'default' VM? [y/N] y
+==> default: Forcing shutdown of VM...
+==> default: Destroying VM and associated drives...
+PS C:\Users\Zakaria\vagrant-vms\vagrant_test>
