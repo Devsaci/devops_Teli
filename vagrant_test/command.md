@@ -231,3 +231,10 @@ PS C:\Users\Zakaria\vagrant-vms\vagrant_test>
 
 # vagrant reload
 PS C:\Users\Zakaria\vagrant-vms\vagrant_test> vagrant reload
+
+# vagrant destroy
+PS C:\Users\Zakaria\vagrant-vms\vagrant_test> vagrant destroy
+    default: Are you sure you want to destroy the 'default' VM? [y/N] y
+==> default: Forcing shutdown of VM...
+==> default: Destroying VM and associated drives...
+PS C:\Users\Zakaria\vagrant-vms\vagrant_test>
