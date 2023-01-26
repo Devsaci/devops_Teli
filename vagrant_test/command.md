@@ -117,3 +117,9 @@ Run 'do-release-upgrade' to upgrade to it.
 
 
 vagrant@ubuntu-xenial:~$
+
+# ~$ sudo -i  / ~# whoami
+vagrant@ubuntu-xenial:~$ sudo -i
+root@ubuntu-xenial:~# whoami
+root
+root@ubuntu-xenial:~#
