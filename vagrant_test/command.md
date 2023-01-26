@@ -123,3 +123,8 @@ vagrant@ubuntu-xenial:~$ sudo -i
 root@ubuntu-xenial:~# whoami
 root
 root@ubuntu-xenial:~#
+
+# ~# exit
+root@ubuntu-xenial:~# exit
+logout
+vagrant@ubuntu-xenial:~$
