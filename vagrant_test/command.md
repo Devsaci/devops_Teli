@@ -260,5 +260,42 @@ Mem:           1550          66        1153           0         330        1342
 Swap:           979           0         979
 vagrant@vagrant:~$
 
+# vagrant@vagrant:~$ ifconfig
 
-# vagrant@vagrant:~$ free -m
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fe78:8ef1  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:78:8e:f1  txqueuelen 1000  (Ethernet)
+        RX packets 619  bytes 72157 (72.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 444  bytes 79877 (79.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.44.10  netmask 255.255.255.0  broadcast 192.168.44.255
+        inet6 fe80::a00:27ff:fec0:2b02  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:c0:2b:02  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 17  bytes 1326 (1.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp0s9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.62  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::a00:27ff:fe84:c198  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:84:c1:98  txqueuelen 1000  (Ethernet)
+        RX packets 548  bytes 34229 (34.2 KB)
+        RX errors 0  dropped 390  overruns 0  frame 0
+        TX packets 22  bytes 2734 (2.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vagrant@vagrant:~$
