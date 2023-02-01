@@ -314,3 +314,14 @@ $ mkdir devopsdir
 Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
 $ ls
 devopsdir/  testfile123.txt  Vagrantfile
+
+Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
+$ vagrant ssh
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-156-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Wed Feb  1 12:41:36 2023 from 10.0.2.2
+vagrant@vagrant:~$ cd /vagrant/
+vagrant@vagrant:/vagrant$
