@@ -212,3 +212,14 @@ drwxr-xr-x 23 root root 4096 Jan 24 20:16 ..
 -rw-r--r--  1 root root 3106 Apr  9  2018 .bashrc
 -rw-r--r--  1 root root  148 Aug 17  2015 .profile
 root@vagrant:~#
+
+# vagrant@vagrant:~$ /vagrant/devopsdir/./bashfiles1.sh
+welcome to bash scripting.
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+..
+..
+..
+eading state information... Done
+152 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Completed successfullyvagrant
+vagrant@vagrant:~$
