@@ -303,3 +303,7 @@ vagrant@vagrant:~$
 
 # Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
 # $ touch testfile123.txt
+
+# Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
+# $ ls
+testfile123.txt  Vagrantfile
