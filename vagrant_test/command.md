@@ -238,3 +238,27 @@ PS C:\Users\Zakaria\vagrant-vms\vagrant_test> vagrant destroy
 ==> default: Forcing shutdown of VM...
 ==> default: Destroying VM and associated drives...
 PS C:\Users\Zakaria\vagrant-vms\vagrant_test>
+
+# Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
+$ vagrant free -m
+Usage: vagrant [options] <command> [<args>]
+
+    -h, --help                       Print this help.
+
+
+#  $ vagrant ssh
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-156-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Wed Feb  1 11:12:44 2023 from 10.0.2.2
+
+# vagrant@vagrant:~$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           1550          66        1153           0         330        1342
+Swap:           979           0         979
+vagrant@vagrant:~$
+
+
+# vagrant@vagrant:~$ free -m
