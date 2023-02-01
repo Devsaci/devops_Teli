@@ -333,3 +333,14 @@ bashfiles11.sh  bashfiles15.sh  bashfiles19.sh  bashfiles3.sh  bashfiles7.sh  te
 bashfiles12.sh  bashfiles16.sh  bashfiles1.sh   bashfiles4.sh  bashfiles8.sh  Vagrantfile
 bashfiles13.sh  bashfiles17.sh  bashfiles20.sh  bashfiles5.sh  bashfiles9.sh
 vagrant@vagrant:/vagrant$
+vagrant@vagrant:/vagrant$ exit
+logout
+
+Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
+$ ls
+bashfiles1.sh   bashfiles13.sh  bashfiles17.sh  bashfiles20.sh  bashfiles6.sh  devopsdir/
+bashfiles10.sh  bashfiles14.sh  bashfiles18.sh  bashfiles3.sh   bashfiles7.sh  testfile123.txt
+bashfiles11.sh  bashfiles15.sh  bashfiles19.sh  bashfiles4.sh   bashfiles8.sh  Vagrantfile
+bashfiles12.sh  bashfiles16.sh  bashfiles2.sh   bashfiles5.sh   bashfiles9.sh
+
+Zakaria@Gen▒ve MINGW64 ~/vagrant-vms/ubuntu18 (main)
