@@ -325,3 +325,11 @@ Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-156-generic x86_64)
 Last login: Wed Feb  1 12:41:36 2023 from 10.0.2.2
 vagrant@vagrant:~$ cd /vagrant/
 vagrant@vagrant:/vagrant$
+
+# vagrant@vagrant:/vagrant$ touch bashfiles{1..20}.sh
+vagrant@vagrant:/vagrant$ ls
+bashfiles10.sh  bashfiles14.sh  bashfiles18.sh  bashfiles2.sh  bashfiles6.sh  devopsdir
+bashfiles11.sh  bashfiles15.sh  bashfiles19.sh  bashfiles3.sh  bashfiles7.sh  testfile123.txt
+bashfiles12.sh  bashfiles16.sh  bashfiles1.sh   bashfiles4.sh  bashfiles8.sh  Vagrantfile
+bashfiles13.sh  bashfiles17.sh  bashfiles20.sh  bashfiles5.sh  bashfiles9.sh
+vagrant@vagrant:/vagrant$
